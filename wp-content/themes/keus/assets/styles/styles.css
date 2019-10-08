@@ -1,0 +1,384 @@
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Open Sans;
+}
+
+#navbar {
+  background-color: #ffffff;
+  position: block;
+  top: 45px;
+  width: 100%;
+  padding-right: 80px;
+  display: block;
+  transition: top 0.3s;
+  font-size: 11.5px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030
+
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #000;
+top: 40px;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 11.5px;
+}
+.block-title-underline {
+  position: relative;
+  display: block;
+  width: 20%;
+  height: 4px;
+  margin: 10px 0px;
+  left: 40%;
+  background: linear-gradient(-45deg, rgba(238, 119, 82, 1), #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+	-webkit-animation: Gradient 2s ease infinite;
+	-moz-animation: Gradient 2s ease infinite;
+	animation: Gradient 2s ease infinite;
+}
+.home-cover {
+  /*background-image: url(../img/image.jpg);
+  width: 100wh;
+	height: 100vh;*/
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position:0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.align {
+  text-align: center;
+
+}
+.cover-text{
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+
+ .cover-text p{
+  text-transform: uppercase;
+  font-family: 'open sans' , sans-serif;
+  font-size: 2.1rem;
+  line-height: 34px;
+  text-align: center;
+  font-weight: 530;
+  letter-spacing: 2px;
+}
+
+.about-text {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.block-title {
+  text-transform: uppercase;
+  font-family: 'Roboto' , sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 100;
+  line-height: 2.4rem;
+}
+
+.content-text{
+margin-top: 40px;
+text-align:justify;
+}
+.content-text h6 {
+  font-size: 1rem;
+  font-style: 'Roboto', sans-serif;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+.content-text ul {
+  list-style: none;
+  display: block;
+}
+.content-text ul li {
+  font-size: 1.2rem;
+  font-style: 'Roboto', sans-serif;
+  font-weight: 440;
+  margin-left: -26px;
+  padding: 6px 0px;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+.content-text ul li:hover {
+  margin-left: -25px;
+}
+.mark-1 {
+  background-color: #3127ee;
+  padding: 6px 6px 7px 10px ;
+  color: #fff;
+}
+.mark-2 {
+  background-color: #3127ee;
+  padding: 6px 6px 7px 10px ;
+  color: #fff;
+}
+.mark-3 {
+  background-color: #3127ee;
+  padding: 6px 6px 7px 10px ;
+  color: #fff;
+}
+.mark-4 {
+  background-color: #3127ee;
+  padding: 3px 3px 3.5px 5px ;
+  color: #fff;
+}
+.btn-cv {
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+}
+.btn-rv {
+  text-align: center;
+  width: 100%;
+  padding-top: 0px;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position:0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.btn-outline-cv {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    background: linear-gradient(-45deg, #2923d5, #3127ee, #5a4bf1, #0e4ee8);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.btn-outline-rv {
+    padding-top: 10em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    background: linear-gradient(-45deg, #2923d5, #3127ee, #5a4bf1, #0e4ee8);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.btn-outline-cv a {
+  color: #ffffff !important;
+}
+
+.btn-outline-rv a {
+  color: #ffffff !important;
+}
+.btn-outline-cv:hover, .btn-outline-cv:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-outline-rv:hover, .btn-outline-rv:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-outline-rv a:hover {
+text-decoration: none;}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position:0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.btn-outline-cv a:hover {
+text-decoration: none;}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position:0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.footer-text {
+  width: 100%;
+  padding: 30px 0px;
+
+}
+.footer-text ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer-text ul li {
+  display:inline-block;
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding: 10px;
+}
+
+.footer-text ul li a {
+  text-decoration: none;
+  display: inline;
+  color: #000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.footer-text ul li a:hover {
+  border-bottom: 1px solid #000;
+}
+
+@@media (max-width:320px) {
+  .footer-text ul li a {
+    margin: 10px;
+  }
+
+
+
+}
